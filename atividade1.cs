@@ -9,10 +9,10 @@ namespace Lista1
             double baseT = 0;
             double altura = 0;
 
-            Console.WriteLine("Digite um valor para a base: ");
+            Console.WriteLine("Informe um valor para a base: ");
             baseT = double.Parse(Console.ReadLine());
 
-            Console.WriteLine("Digite um valor para a altura: ");
+            Console.WriteLine("Informe um valor para a altura: ");
             altura = double.Parse(Console.ReadLine());
 
             Console.WriteLine("O perímetro do retângulo é: " + (baseT * 2 + altura * 2));
